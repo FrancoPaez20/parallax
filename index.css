@@ -1,0 +1,67 @@
+/*Fuentes*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*{
+
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	text-decoration: none;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	scroll-behavior: smooth;
+	font-family: 'Poppins', sans-serif;
+}
+
+/*INICIO SCROLL BAR*/
+::-webkit-scrollbar{
+
+	width: 0px;
+	background-color: #fff;
+}
+
+::-webkit-scrollbar-thumb{
+
+	border-radius: 0px;
+	background: #282828;
+}
+/*FIN SCROLL BAR*/
+
+.hero{
+
+	width: 100%;
+	height: 100vh;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: center;
+	-ms-align-items: center;
+	align-items: center;
+	position: relative;
+	overflow: hidden;
+}
+
+.hero img{
+
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: -1;
+}
+
+.hero h1{
+
+	font-size: 4em;
+}
+
+.overflow{
+
+	height: 200vh;
+	background: gray;
+}

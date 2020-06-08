@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<meta name="description" content="DEPRO STUDIO"/>
+	<meta name="keywords" content="DEPRO STUDIO"/>
+	<meta name="author" content="DEPRO STUDIO" />
+	<meta name="copyright" content="DEPRO STUDIO" />
+	<meta name="robots" content="index"/>
+	<meta name="theme-color" content="#181818">
+	<!--<meta name="robots" content="noindex"/> -->
+	<title>DEPRO STUDIO</title>
+	<script src="https://kit.fontawesome.com/fc69885e8b.js" crossorigin="anonymous"></script>
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<link rel="stylesheet" href="index.css">
+</head>
+<body>
+
+	<section class="hero">
+		
+		<img src="https://loremflickr.com/1920/1080" alt="" class="parallax" id="parallax">
+		<h1>PARALLAX PERRON</h1>
+
+	</section>
+
+	<section class="overflow"></section>
+
+	<script>
+		
+		window.addEventListener('scroll', function(){
+
+			const parallax = document.getElementById("parallax");
+			let  scrollPosition = window.pageYOffset;
+
+			parallax.style.transform = 'translateY(' + scrollPosition * .5 + 'px';
+		})
+
+
+
+	</script>
+
+</body>
+</html>
